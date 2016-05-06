@@ -1,0 +1,53 @@
+public class Stringe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String a;
+		a="Juan";
+		System.out.println(a);
+		String b="JUAN";
+		System.out.println(a);
+		
+		char c = a.charAt(2);
+		System.out.println(c);
+		String sub = a.substring(1,3);
+		System.out.println(sub);
+		
+		if (a.equalsIgnoreCase(b)) {
+			System.out.println("Es igual");
+		}else{
+			System.out.println("No es igual");
+		}
+		
+
+
+	
+	if (a.equals(b)) {
+		System.out.println("Es igual");
+	}else{
+		System.out.println("No es igual");
+	}
+	
+    //NO se usa
+	
+	if (a==b) {
+		System.out.println("Es igual");
+	}else{
+		System.out.println("No es igual");
+	}
+	String seven = String.valueOf(7);
+	System.out.println(seven);
+	int suma = Integer.parseInt(seven)+10;
+	System.out.println(suma);
+	/*seven = "7sa";
+	suma = Integer.parseInt(seven)+10;
+	System.out.println(suma);*/
+	
+	StringBuffer sb= new StringBuffer("Hola");
+	System.out.println(sb);
+	sb.insert(2, "r");
+	System.out.println(sb);
+	System.out.println(sb.reverse());
+}
+}	 
